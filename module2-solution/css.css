@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: monospace;
+    margin: 0px;
+    background-color: white;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    margin: 0px;
+    background-color: rgb(87, 148, 148);
+    color: whitesmoke;
+}
+.container {
+    width: 100%;
+    padding: 0px 40px 0px 40px;
+}
+.cards {
+    background-color:  rgb(208, 212, 212);
+    position: relative;
+    padding: 0px 10px 10px 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    margin: 10px;  
+}
+.cards:hover {
+    transform: translateY(10px);
+}
+.main {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 2px 10px 2px 2px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0px;
+    min-width: 200px;
+    color: whitesmoke;
+
+}
+#chicken {
+    background-color: rgb(11, 121, 121);
+}
+#beef {
+    background-color: rgb(20, 92, 121);
+}
+#sushi {
+    background-color: rgb(20, 121, 87);
+}
+p {
+    margin: 35px auto auto auto;
+    text-align: justify;
+}
+footer {
+    background-color: rgb(87, 148, 148);
+    padding: 20px;
+    height: 20px;
+    color: whitesmoke;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+/*Media Query for Desktop*/
+@media (min-width: 992px) {
+    .col-l-3 {
+        width: 31%;
+        float: left;
+    }
+}
+/*Media Query for Tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-m-2 {
+        float: left;
+        width: 47%;
+    }
+    .col-m-1 {
+        width: 96.5%;
+        float: left;
+    }
+}
+/*Media Query for Mobile*/
+@media (max-width: 767px) {
+
+}
