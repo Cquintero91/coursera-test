@@ -1,0 +1,67 @@
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.2;
+    background-color: whitesmoke;
+}
+#header-nav {
+    background-color: rgba(113, 113, 223, 0.87);
+    border-radius: 0;
+    margin: 0;
+}
+.navbar-brand {
+    padding: 1px;
+}
+.navbar-brand a div {
+    margin-top: 6px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    width: 80%;
+}
+.navbar-header a:active, .navbar-header a:visited, .navbar-header a:link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+#nav-list li {
+    text-align: center;
+}
+#nav-list li a:hover {
+    background-color: grey;
+    color: whitesmoke;
+}
+#chicken, #beef, #sushi {
+    background-color: lightgray;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 0;
+}
+#chicken h2, #beef h2, #sushi h2 {
+    background-color: rgba(113, 113, 223, 0.87);
+    color: whitesmoke;
+    border-radius: 25px 25px 0 0;
+    padding: 10px 5px 5px 15px;
+    margin-top: 0px;
+    width: 100%;
+}
+p {
+    padding: 5px;
+    margin: 10px;
+    text-align: justify;
+}
+#chicken:hover, #beef:hover, #sushi:hover {
+    transform: translateX(20px);
+    transition: 0.5s;
+}
+.panel-footer {
+    background-color: rgba(113, 113, 223, 0.87);
+    border-radius: 0;
+    margin: 0;
+    color: whitesmoke;
+}
+.panel-footer p {
+    margin: 5px;
+}
